@@ -1,0 +1,118 @@
+{
+  "app": {
+    "title": "ONFLY TEST",
+    "welcome": "Welcome to {appName}",
+    "alt_logo": "Ilustration of a rocket",
+    "login": "Login to your account",
+    "register": "Create your free account",
+    "forgot_password": "Forgot Password",
+    "enter_email_reset": "Enter your email to reset your password",
+    "reset_password": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "passwordConfirmation": "Password Confirmation",
+    "name": "Name",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?",
+    "sign_up": "Sign Up",
+    "sign_in": "Sign In",
+    "send": "Send",
+    "go_back": "Go Back",
+    "success_message": "User data updated successfully!",
+    "error_message": "Error updating user data.",
+    "email_sent": "Recovery email sent! Check your inbox.",
+    "create_account": "Create Account"
+  },
+
+  "dashboard": {
+    "overview": "Dashboard Overview",
+    "new_order": "+ New Order",
+    "total_orders": "Total Orders",
+    "requested": "Requested",
+    "approved": "Approved",
+    "canceled": "Canceled"
+  },
+
+  "header": {
+    "title": "ONFLY TEST",
+    "hello": "Hello, {name}",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+
+  "order": {
+    "new_order": "New Order",
+    "origin": "Origin",
+    "destination": "Destination",
+    "select_origin": "Select the origin",
+    "select_destination": "Select the destination",
+    "departure_date": "Departure Date",
+    "return_date": "Return Date",
+    "cancel": "Cancel",
+    "create_order": "Create Order",
+    "processing": "Processing...",
+    "success_message": "Order successfully created!",
+    "error_message": "Error creating the order."
+  },
+
+  "user": {
+    "settings": "User Settings",
+    "name": "Name",
+    "email": "Email",
+    "new_password": "New Password",
+    "cancel": "Cancel",
+    "save": "Save",
+    "processing": "Processing...",
+    "success_message": "User data updated successfully!",
+    "error_message": "Error updating user data."
+  },
+
+  "orders": {
+    "title": "Travel Orders",
+    "id": "Order ID",
+    "requester": "Requester Name",
+    "origin": "Origin",
+    "destination": "Destination",
+    "period": "Period",
+    "status": "Status",
+    "actions": "Actions",
+    "select": "Select",
+    "approve": "Approve",
+    "cancel": "Cancel",
+    "completed": "Completed",
+    "pending": "Pending",
+    "approved": "Approved",
+    "canceled": "Canceled",
+    "edit": "Edit"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "messages": {
+    "user_registered_successfully": "Usuário cadastrado com sucesso!",
+    "user_logged_in_successfully": "Login realizado com sucesso!",
+    "invalid_credentials": "Credenciais inválidas.",
+    "auth_failed": "Falha na autenticação.",
+    "registration_failed": "Falha ao cadastrar, tente novamente.",
+    "name_required": "O campo nome é obrigatório.",
+    "email_required": "O campo e-mail é obrigatório.",
+    "email_invalid": "Por favor, insira um e-mail válido.",
+    "email_taken": "Este e-mail já está em uso.",
+    "password_required": "O campo senha é obrigatório.",
+    "password_mismatch": "As senhas não coincidem.",
+    "user_registration_failed": "Falha ao cadastrar usuário.",
+    "travel_order_created_successfully": "Ordem de viagem criada com sucesso!",
+    "order_created_successfully": "Pedido criado com sucesso!",
+    "please_provide_the_trip_origin": "Por favor, informe a origem da viagem.",
+    "origin_must_be_a_string": "A origem deve ser um texto válido.",
+    "please_provide_the_trip_destination": "Por favor, informe o destino da viagem.",
+    "destination_must_be_a_string": "O destino deve ser um texto válido.",
+    "please_provide_the_departure_date": "Por favor, informe a data de ida.",
+    "departure_date_must_be_a_valid_date": "A data de ida deve ser uma data válida.",
+    "please_provide_the_return_date": "Por favor, informe a data de volta.",
+    "return_date_must_be_a_valid_date": "A data de volta deve ser uma data válida.",
+    "fetch_orders": "Erro ao buscar pedidos. Tente novamente mais tarde.",
+    "order_submission_failed": "Falha ao criar o pedido. Verifique as informações inseridas."
+  }
+}
