@@ -36,13 +36,13 @@ Bem-vindo ao sistema de gereciamento de pedidos de viagem. Este projeto demonstr
   http://localhost:5173
 ```
 
-## 🤝 Entendendo a arquitetura
+##  Entendendo a arquitetura
 
   * Ao subir o projeto um script de seed é rodando, o mesmo cria o usuário Administrador da Aplicação, os demais usuários seguem o fluxo de cadastro convencional.
 
   ```json
   email: admin@admin.com
-  password: admin123,
+  password: admin123
 ```
 
 ## Considerações Finais
