@@ -51,6 +51,9 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
 # Expor porta do Laravel
 EXPOSE 8000
 
+# Copiando arquivos do projeto para o container
+COPY . .
+
 # Comando para rodar o servidor e executar migrations + seeders
 CMD php artisan migrate --seed && php artisan serve --host=0.0.0.0
 
