@@ -24,24 +24,34 @@ WORKDIR /var/www
 # Copiar arquivos do projeto
 COPY . .
 
-# Instalar dependências do Laravel e gerar chave da aplicação
-RUN composer install --no-dev --optimize-autoloader && \
-    php artisan key:generate && \
-    php artisan config:clear && \
-    php artisan cache:clear
+# Ajustar permissões
+RUN chown -R www-data:www-data /var/www \
+    && chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
-# Instalar Node.js e NPM
+# Instalar dependências do Laravel sem desenvolvimento (mas permite debug)
+RUN composer install --no-dev --optimize-autoloader
+
+# Gerar chave da aplicação
+RUN php artisan key:generate
+
+# Limpar cache do Laravel
+RUN php artisan config:clear && \
+    php artisan cache:clear && \
+    php artisan view:clear && \
+    php artisan route:clear
+
+# Instalar Node.js e NPM (se necessário)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
-apt-get install -y nodejs && \
-npm install -g n && \
-n 18.16.0 && \
-apt-get remove -y nodejs && \
-apt-get autoremove -y
+    apt-get install -y nodejs && \
+    npm install -g n && \
+    n 18.16.0 && \
+    apt-get remove -y nodejs && \
+    apt-get autoremove -y
 
-COPY . .
-
-# Expor porta padrão do Laravel
+# Expor porta do Laravel
 EXPOSE 8000
 
 # Comando para rodar o servidor e executar migrations + seeders
 CMD php artisan migrate --seed && php artisan serve --host=0.0.0.0
+
+
