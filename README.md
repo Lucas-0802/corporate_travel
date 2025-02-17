@@ -47,4 +47,4 @@ Bem-vindo ao sistema de gerenciamento de pedidos de viagem. Este projeto demonst
 
 ## Considerações Finais
 
-* O projeto não foi 100% cncluído conforme os requisitos, enfrentei alguma dificuldades durante o desenvolvimento, mas o maior desafio foi o tempo, tenho certeza que com mais tempo, podeira ter acaabdo todas as funcionalidades e deixado o projeto 100% funcional.
+* O projeto não foi 100% concluído conforme os requisitos, enfrentei algumas dificuldades durante o desenvolvimento, mas o maior desafio foi o tempo, tenho certeza que com mais tempo, poderia ter acabado todas as funcionalidades e deixado o projeto 100% funcional.
