@@ -38,6 +38,8 @@ n 18.16.0 && \
 apt-get remove -y nodejs && \
 apt-get autoremove -y
 
+COPY . .
+
 # Expor porta padrão do Laravel
 EXPOSE 8000
 
