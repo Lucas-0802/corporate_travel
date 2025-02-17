@@ -1,6 +1,6 @@
 # 🛠️ Corporate Travel 
 
-Bem-vindo ao sistema de gereciamento de pedidos de viagem. Este projeto demonstra uma aplicação FullStack com controle de permissões de usuário e gestão de pedidos de passagem.
+Bem-vindo ao sistema de gerenciamento de pedidos de viagem. Este projeto demonstra uma aplicação FullStack com controle de permissões de usuário e gestão de pedidos de passagem.
 
 ## 🚀 Funcionalidades
 
