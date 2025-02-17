@@ -38,7 +38,7 @@ Bem-vindo ao sistema de gerenciamento de pedidos de viagem. Este projeto demonst
 
 ##  Entendendo a arquitetura
 
-  * Ao subir o projeto um script de seed é rodando, o mesmo cria o usuário Administrador da Aplicação, os demais usuários seguem o fluxo de cadastro convencional.
+  * Ao subir o projeto um script de seed é rodado, o mesmo cria o usuário Administrador da Aplicação, os demais usuários seguem o fluxo de cadastro convencional.
 
   ```json
   email: admin@admin.com
