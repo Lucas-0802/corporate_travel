@@ -17,7 +17,7 @@ Bem-vindo ao sistema de gerenciamento de pedidos de viagem. Este projeto demonst
 **Descrição:** Com o projeto clonado na sua máquina, configure as variáveis de ambiente para que o banco de dados funcione, depois entre na pasata backend
 
   ```json
-  cd backend
+  {cd backend}
 ```
 
 ### 2. `Segundo passo`
