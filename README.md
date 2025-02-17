@@ -12,7 +12,7 @@ Bem-vindo ao sistema de gereciamento de pedidos de viagem. Este projeto demonstr
 
 ## 📂 Rodando o projeto
 
-### 1. `Prmeiro passo`
+### 1. `Primeiro passo`
 
 **Descrição:** Com o projeto clonado na sua máquina, configure as variáveis de ambiente para que o banco de dados funcione, depois entre na pasata backend
 
@@ -20,7 +20,7 @@ Bem-vindo ao sistema de gereciamento de pedidos de viagem. Este projeto demonstr
   cd backend
 ```
 
-### 2. Segundo passo`
+### 2. `Segundo passo`
 
 **Descrição:** Suba os containers docker para que a aplicação possa ser acessada.
 
