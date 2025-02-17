@@ -48,6 +48,9 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get remove -y nodejs && \
     apt-get autoremove -y
 
+ # Copiar arquivos do projeto
+COPY . .
+
 # Expor porta do Laravel
 EXPOSE 8000
 
